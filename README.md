@@ -1,2 +1,4 @@
 # musicproject
-Music project to display some tunes and their connections to each other
+
+Single webpage to display some tunes and the connects that these songs have to others
+
