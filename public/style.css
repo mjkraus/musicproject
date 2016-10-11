@@ -1,0 +1,135 @@
+body{
+	background-color: #575757;
+	font-family: 'Roboto', sans-serif;
+}
+
+p{
+    margin: 1em 0 1em 0;
+    color: #575757;
+    font-size: .75em;
+}
+
+h1{
+	color: #E6A8A8;
+}
+
+.page-header{
+	border-bottom: none;
+}
+
+.col-md-1, .col-md-2, .col-md-3{
+	padding: 0px;
+}
+
+.row.blue-background{
+	background-color: #D6F0FF;
+	margin-bottom: 6em;
+}
+
+.row.pink-background{
+	background-color: #E6A8A8;
+	margin-bottom: 6em;
+}
+
+p.song-title{
+	color: #575757;
+    position: relative;
+    top: 0;
+    height: inherit;
+    width: 35%;
+    left: 0;
+    margin-top: -1.5em;
+    margin-bottom: 1em;
+    background-color: #E2CB58;
+    padding: 1em;
+    font-size: 1em;
+}
+
+.addition-wrapper{
+	height: 200px;
+    width: 100%;
+/*    border: 1px solid red;*/
+    position: relative;
+}
+
+p.plus{
+    font-size: 3em;
+    margin: 0px;
+    padding: 0px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    position: absolute;
+}
+
+.cover{
+	display: block;
+/*    padding: 4px;*/
+    background-color: #FEF4E8;
+    height: 200px;
+    background-repeat: no-repeat;
+	background-position: center;
+	background-size: contain;
+}
+
+.cover.swift{
+	background-color: #FEF4E8;
+}
+
+.cover.adams{
+	background-color: #FEF4E8;
+}
+
+.cover.babetown{
+	background-image: url('images/babetown-cover.jpg');
+}
+
+/*audio player*/
+
+.audio-wrapper{
+	position: relative;
+    height: 100%;
+    width: 100%;
+}
+
+#audioplayer{
+	width: 480px;
+    height: 30px;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    background-color: rgba(87, 87, 87, 0.4);
+    border: 2px solid #575757;
+}
+
+#pButton{
+    height: 100%;
+    width: 30px;
+    border: none;
+    background-size: 50% 50%;
+    background-repeat: no-repeat;
+    background-position: center;
+    float: left;
+    outline: none;
+    position: absolute;
+}
+
+.play{background: url('http://www.alexkatz.me/codepen/images/play.png') ;}
+.pause{background: url('http://www.alexkatz.me/codepen/images/pause.png') ;}
+
+#timeline{
+    width: calc(100% - 40px);
+    height: 10px;
+    margin: 8px 10px 0px 10px;
+    float: right;
+    border-radius: 15px;
+    background-color: #575757;
+}
+
+#playhead{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: #E2CB58;
+}
+
